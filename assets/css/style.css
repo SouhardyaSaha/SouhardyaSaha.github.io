@@ -1110,11 +1110,16 @@ section {
 }
 
 /* My Custom CSS */
+
+.md-chips {
+  max-width: 100%;
+}
+
 .md-chip {
   display: inline-block;
   background: #e0e0e0;
-  padding: 12px;
-  margin: 12px;
+  padding: 8px;
+  margin: 8px;
   border-radius: 16px;
   font-size: 16px;
 }
