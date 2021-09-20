@@ -78,7 +78,8 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  /* background: #040b14; */
+  background: #000000;
   overflow-y: auto;
 }
 
@@ -97,6 +98,7 @@ h6 {
   -moz-text-align-last: center;
   text-align-last: center;
   font-family: "Poppins", sans-serif;
+  line-height: 2.5rem;
 }
 
 #header .profile h1 a,
@@ -1105,4 +1107,17 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+/* My Custom CSS */
+.md-chip {
+  display: inline-block;
+  background: #e0e0e0;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 16px;
+  font-size: 16px;
+}
+.md-chip.md-chip-hover:hover {
+  background: #ccc;
 }
